@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #333;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container { 
+    width: 60%;
+    margin: auto;
+  
+}
+
+header {
+    background-color: #222;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+.list-of-tasks-contant {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    gap: 30px;
+    background-color: #555;
+    padding: 20px;
+    margin-top: 60px;
+    color: white;
+}
+
+.list-of-tasks-contant form {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* background-color: #333; */
+}
+
+.list-of-tasks-contant form input:first-of-type {
+width: 70%;
+height: 30px;
+border-radius: 10px;
+border: 2px solid #4fa561;
+transition: 0.5s;
+}
+
+.list-of-tasks-contant form input:first-of-type:hover {
+    height: 35px;
+}
+
+.list-of-tasks-contant form input:last-of-type {
+    width: 10%;
+    background-color: #4fa561;
+    color: white;
+    text-transform: uppercase;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px #4fa561 solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.list-of-tasks-contant form input:last-of-type:hover {
+    height: 35px;
+}
+
+.tasks {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.task {
+    width: 100%;
+    padding: 5px;
+    background-color: #9a9999;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+/* justify-content: left; */
+gap: 20px;
+}
+
+
+.task p {
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.task .delete { 
+    margin-left: auto;
+    width: 100px;
+    background-color: #a55f4f;
+    color: white;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px;
+    cursor: pointer;
+}
+.line-through {
+    text-decoration: line-through rgb(66, 164, 74);
+    }
+
+
+
+
+
+
